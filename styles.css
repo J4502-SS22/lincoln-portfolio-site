@@ -150,9 +150,24 @@ p {
   padding:15px;
 }
 
-#video {
+.video-wrapper {
+  position:relative;
+}
+
+.video-wrapper object,
+.video-wrapper, embed,
+.video-wrapper iframe {
+  position:absolute;
+  top:0;
+  left:0;
   width:100%;
-  height:auto;
+  height:100%;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom:56.25%;
+  height:0;
 }
 
 @media screen and (max-width:600px) {
