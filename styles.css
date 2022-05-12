@@ -150,6 +150,12 @@ p {
   padding:15px;
 }
 
+#outcomes-guide {
+  box-sizing:border-box;
+  padding:10px;
+  align-self:center;
+}
+
 .video-wrapper {
   position:relative;
 }
