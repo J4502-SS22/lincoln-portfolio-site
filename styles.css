@@ -150,6 +150,11 @@ p {
   padding:15px;
 }
 
+#video {
+  width:100%;
+  height:auto;
+}
+
 @media screen and (max-width:600px) {
   .topnav a:not):first-child) {display:none;}
   .topnav a.icon {
