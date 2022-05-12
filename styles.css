@@ -11,6 +11,14 @@ body {
   margin: 50px;
 }
 
+a {
+  text-decoration:none;
+}
+
+li {
+  list-style:none;
+}
+
 h1 {
   font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
   font-weight: 800;
@@ -35,11 +43,12 @@ p {
 .topnav {
   margin-top: 5px;
   text-transform:uppercase;
-  text-align:center;
-  display:block;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
   flex-direction: column;
   margin:0;
-  padding:0px;
+  padding:10px;
   height:100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -75,3 +84,44 @@ p {
 .topnav a:hover {
   color:#679436;
 }
+
+.footer {
+  color:#34495e;;
+  padding: 50px;
+}
+
+.footer h3 {
+  margin-top:0;
+  font-size:16px;
+}
+
+.footer ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer ul a {
+  color:inherit;
+  text-decoration: none;
+  opacity:0.6;
+}
+
+.footer ul a:hover {
+  color:#679436;
+}
+
+@media (max-width:600px) {
+  .footer .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+ }
+
+ @media (max-width:700px) {
+   .footer .item.text {
+     margin-bottom:0;
+   }
+ }
